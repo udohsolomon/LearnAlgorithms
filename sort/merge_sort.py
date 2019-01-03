@@ -57,4 +57,4 @@ if __name__ == "__main__":
     '''
     LIST = [random.randint(0, 1000) for i in range(random.randint(100, 1000))]
     unsortedLIST = copy.deepcopy(LIST)
-    visualizatio(unsortedLIST, merge_sort)
+    visualization(unsortedLIST, merge_sort)
