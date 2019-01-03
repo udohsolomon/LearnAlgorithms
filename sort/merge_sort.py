@@ -44,4 +44,17 @@ def visualizatio(LIST, SORTED_LIST):
     plt.show()
     plt.plot(SORTED_LIST)
     plt.xlabel('Merge Sorted Data')
-    plt.sh1()
+    plt.show()
+
+if __name__ == "__main__":
+    #Test
+    LIST = [0, 8, 5, 2, 9, 4, 7, 3, 6, 1]
+    print('Unordered list {}'.format(LIST))
+    print('Merge sorted list {}'.format(merge_sort(LIST)))
+    '''
+    generate a list of random length between 100 and 1000
+    and add ramdom number to it
+    '''
+    LIST = [random.randint(0, 1000) for i in range(random.randint(100, 1000))]
+    unsortedLIST = copy.deepcopy(LIST)
+    visualizatio(unsortedLIST, merge_sort)
