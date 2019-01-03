@@ -8,7 +8,7 @@ Algorithms and Data Structure Class
 Class docs and lectures
 
 # Why learn algorithms?
-  - Their impact is far reaching and broad
+  - Their impacts are far reaching and broad
 
 # Steps to developing useful algorithms
   - Model of the problem
