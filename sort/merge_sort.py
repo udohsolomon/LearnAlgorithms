@@ -35,7 +35,7 @@ def merge_sort(LIST):
     end.reverse()
     return start + end
 
-def visualizatio(LIST, SORTED_LIST):
+def visualization(LIST, SORTED_LIST):
     '''
     To visualise both unsorted and sorted data.
     '''
