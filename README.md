@@ -8,11 +8,12 @@ Algorithms and Data Structure Class
 Class docs and lectures
 
 # Why learn algorithms?
+  - Their impact is far wide and ...
+
+# Steps to developing useful algorithms
   - Model of the problem
   - Fnd an algorithm to solve it
   - Fast enough? Fits in memory?
   - If not, figure out why
   - Find a way to address the problem
   - Iterate until satisfied
-
-# Steps to developing useful algorithms
