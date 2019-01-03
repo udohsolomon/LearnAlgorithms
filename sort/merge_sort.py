@@ -35,4 +35,13 @@ def merge_sort(LIST):
     end.reverse()
     return start + end
 
-    
+def visualizatio(LIST, SORTED_LIST):
+    '''
+    To visualise both unsorted and sorted data.
+    '''
+    plt.plot(LIST)   
+    plt.xlabel('Random Data')
+    plt.show()
+    plt.plot(SORTED_LIST)
+    plt.xlabel('Merge Sorted Data')
+    plt.sh1()
