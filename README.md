@@ -17,4 +17,4 @@ Class docs and lectures
   - If not, figure out why
   - Find a way to address the problem
   - Iterate until satisfied
-## Dynamic Connectivity Problem
+## 1. Dynamic Connectivity Problem
