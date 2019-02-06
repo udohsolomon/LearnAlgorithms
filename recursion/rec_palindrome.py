@@ -5,9 +5,9 @@
 
 def rec_palindrome(str):
     if len(str) <= 1:
-        return True
+        return True # base case
     if str[0] == str[len(str) - 1]:
-        return rec_palindrome(str[1:-1])
+        return rec_palindrome(str[1:-1]) # recursive call
     else:
         return False
 print(rec_palindrome('mother'))

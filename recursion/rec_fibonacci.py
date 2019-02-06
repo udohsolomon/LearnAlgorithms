@@ -5,8 +5,8 @@
 def rec_fibonacci(n):
     # print('n =', n)
     if n == 0 or n == 1:
-        return n
+        return n # base case
     else:
-        return rec_fibonacci(n-1) + rec_fibonacci(n - 2)
+        return rec_fibonacci(n-1) + rec_fibonacci(n - 2) # recursive call
 
 print(rec_fibonacci(100))

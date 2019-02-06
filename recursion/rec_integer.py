@@ -7,11 +7,9 @@
 #       printInteger(61,10) → 61
 
 def rec_printInteger(n, b):
-    if n == 0:
-        return [0]
-    digits = []
-    while n:
-        digits.append(int(n % b))
-        n //= b
-    return digits[::-1]
-print(rec_printInteger(610000, 2))
+    str = '0123456789ABCDEF'
+    if n < b:
+        return str[n] # base case
+    else:
+        return rec_printInteger(n // b, b) + str[n % b] # recursive call
+print(rec_printInteger(62, 2))
