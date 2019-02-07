@@ -12,4 +12,4 @@ def rec_printInteger(n, b):
         return str[n] # base case
     else:
         return rec_printInteger(n // b, b) + str[n % b] # recursive call
-print(rec_printInteger(62, 2))
+print(rec_printInteger(6005698765698767906445, 16))

@@ -9,4 +9,4 @@ def rec_fibonacci(n):
     else:
         return rec_fibonacci(n-1) + rec_fibonacci(n - 2) # recursive call
 
-print(rec_fibonacci(100))
+print(rec_fibonacci(40))

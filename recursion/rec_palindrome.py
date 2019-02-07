@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Example: 3 Palindrome (Recursion)
+# Example: 5 Palindrome (Recursion)
 
 # Detect whether a sequence is a palindrome
 
