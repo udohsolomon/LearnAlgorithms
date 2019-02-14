@@ -1,4 +1,4 @@
-#!/usr/bin/env/python3
+#!/usr/bin/env  python3
 '''
 Python implementation of merge sort algorithm.
 Worst Case Scenario : O(n)
@@ -57,4 +57,4 @@ if __name__ == "__main__":
     '''
     LIST = [random.randint(0, 1000) for i in range(random.randint(100, 1000))]
     unsortedLIST = copy.deepcopy(LIST)
-    visualization(unsortedLIST, merge_sort)
+    visualization(unsortedLIST, merge_sort(unsortedLIST))
